@@ -1,0 +1,2 @@
+Vous êtes chef de projet. Veuillez analyser le fichier finale.txt dans le dossier flirtyai, puis rédiger un cahier des charges détaillé en fonction des informations qu’il contient. Ensuite, intégrez et implémentez le projet en respectant les spécifications définies dans ce dossier.
+creer le projet dans ce dossier flirtyai
