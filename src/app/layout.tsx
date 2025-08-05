@@ -5,33 +5,33 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Flirty.ai - Join the exclusive BETA',
-  description: 'The next generation AI companion platform. Get early access to our exclusive BETA.',
-  keywords: 'AI companion, AI chat, BETA access, Flirty.ai, AI conversation, AI relationship',
-  authors: [{ name: 'Flirty.ai Team' }],
-  creator: 'Flirty.ai',
-  publisher: 'Flirty.ai',
+  title: 'ISFPS LEADER - Institut Supérieur de Formations des Paramédicaux et Sciences de la Société',
+  description: 'Institut Supérieur de Formations des Paramédicaux et Sciences de la Société. Formations reconnues par la FOP et habilitées par le MESUPRES. 5 filières d\'excellence.',
+  keywords: 'ISFPS, Institut Supérieur, Formations Paramédicales, Sciences de la Société, FOP, MESUPRES, formations Madagascar, paramédical, gestion, droit, communication, informatique',
+  authors: [{ name: 'ISFPS LEADER Team' }],
+  creator: 'ISFPS LEADER',
+  publisher: 'ISFPS LEADER',
   openGraph: {
-    title: 'Flirty.ai - The Next Generation AI Companion',
-    description: 'Join our exclusive BETA program and be one of the first to experience the future of AI communication technology.',
-    url: 'https://flirty.ai',
-    siteName: 'Flirty.ai',
+    title: 'ISFPS LEADER - Le leader reste toujours le premier',
+    description: 'Institut Supérieur de Formations des Paramédicaux et Sciences de la Société. Diplômes reconnus par la FOP et formations habilitées par le MESUPRES.',
+    url: 'https://isfps-leader.mg',
+    siteName: 'ISFPS LEADER',
     images: [
       {
-        url: 'https://flirty.ai/images/og-image.png',
+        url: 'https://isfps-leader.mg/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Flirty.ai - The Next Generation AI Companion',
+        alt: 'ISFPS LEADER - Institut Supérieur de Formations des Paramédicaux et Sciences de la Société',
       },
     ],
-    locale: 'en_US',
+    locale: 'fr_MG',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Flirty.ai - The Next Generation AI Companion',
-    description: 'Join our exclusive BETA program and be one of the first to experience the future of AI communication technology.',
-    images: ['https://flirty.ai/images/twitter-image.png'],
+    title: 'ISFPS LEADER - Le leader reste toujours le premier',
+    description: 'Institut Supérieur de Formations des Paramédicaux et Sciences de la Société. Diplômes reconnus par la FOP et formations habilitées par le MESUPRES.',
+    images: ['https://isfps-leader.mg/images/twitter-image.png'],
   },
 };
 
@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className={inter.className}>
         <main className="flex flex-col min-h-screen">
           <div className="flex-grow">
